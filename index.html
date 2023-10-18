@@ -1,0 +1,272 @@
+<!doctype html>
+<html lang="en">
+<!-- https://source.unsplash.com/1600x900/?nature -->
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Bootstrap demo</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+  <link rel="stylesheet" href="style.css">
+  <style>
+    /* *{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+} */
+    body {
+      background-color: #e5e5e5;
+    }
+
+    .container-top-left {
+      position: absolute;
+      top: 8px;
+      left: 16px;
+      padding: 20px;
+      color: white;
+    }
+
+    .container-icons {
+      font-size: 5rem;
+      margin: 1rem;
+    }
+
+    .container-icons i {
+      padding: 1rem;
+    }
+
+    .contact-icons {
+      font-size: 2rem;
+      margin: 2rem;
+      color: black;
+    }
+  </style>
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">Anusha</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav nav-underline me-auto mb-2 mb-md-0">
+          <li class="nav-item">
+            <a class="nav-link" href="#about">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#skills">Skills</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#projects">Projects</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#contact">Contact</a>
+          </li>
+
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <div class="card text-bg-dark ">
+    <img src="final.jpeg" class="card-img" alt="...">
+    <div class="card-img-overlay">
+      <div class="row">
+        <div class="col-md-6">
+          <img src="photo.jpg" class="img-fluid my-auto" alt="">
+        </div>
+        <div class="col-md-6">
+          <h5 class="card-title my-5 text-dark" id="about"><big style="font-size: 35px;">About</big></h5>
+          <p class="card-text text-dark" style="font-size: 20px;">
+            I am currently an undergraduate student enrolled in the Bachelor of Engineering program with a
+            specialization in Information Science at New Horizon College of Engineering. I have now progressed to my
+            third year of study, and I am keenly inclined toward the aspiration of developing a diverse portfolio of
+            projects by the culmination of this academic year. <br><br>I possess a fervent commitment to perpetual
+            learning, consistently demonstrating a remarkable capacity to swiftly assimilate novel concepts. I derive
+            genuine satisfaction from engaging with subjects of interest. My approach extends beyond mere contemplation
+            of objectives. </p>
+          <p class="card-text" style="font-size: 20px;"><small>I am a dedicated and passionate learner who consistently
+              exhibits a strong commitment to the pursuit of knowledge and personal growth. My unwavering enthusiasm for
+              acquiring new skills and understanding complex concepts drives my educational journey.</small></p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- <hr class="featurette-divider"> -->
+
+  <div class="container px-4 py-5" id="skills">
+    <h2>
+      Skills
+    </h2>
+    <p>
+    <ul>
+      <li>C<div class="progress" role="progressbar" aria-label="Secondary example" aria-valuenow="89" aria-valuemin="0"
+          aria-valuemax="100">
+          <div class="progress-bar bg-secondary text-dark" style="width: 77%">77%</div>
+        </div>
+      </li>
+      <li>Python <div class="progress" role="progressbar" aria-label="Secondary example" aria-valuenow="89"
+          aria-valuemin="0" aria-valuemax="100">
+          <div class="progress-bar bg-secondary text-dark" style="width: 89%">89%</div>
+        </div>
+      </li>
+      <li>Java OOPS<div class="progress" role="progressbar" aria-label="Secondary example" aria-valuenow="95"
+          aria-valuemin="0" aria-valuemax="100">
+          <div class="progress-bar bg-secondary text-dark" style="width: 95%">95%</div>
+        </div>
+      </li>
+      <li>Sql<div class="progress" role="progressbar" aria-label="Secondary example" aria-valuenow="52"
+          aria-valuemin="0" aria-valuemax="100">
+          <div class="progress-bar bg-secondary text-dark" style="width: 52%">52%</div>
+        </div>
+      </li>
+      <li>Arduino<div class="progress" role="progressbar" aria-label="Secondary example" aria-valuenow="67"
+          aria-valuemin="0" aria-valuemax="100">
+          <div class="progress-bar bg-secondary text-dark" style="width: 67%">67%</div>
+        </div>
+      </li>
+      <li>HTML<div class="progress" role="progressbar" aria-label="Secondary example" aria-valuenow="95"
+          aria-valuemin="0" aria-valuemax="100">
+          <div class="progress-bar bg-secondary text-dark" style="width: 95%">95%</div>
+        </div>
+      </li>
+      <li>CSS<div class="progress" role="progressbar" aria-label="Secondary example" aria-valuenow="74"
+          aria-valuemin="0" aria-valuemax="100">
+          <div class="progress-bar bg-secondary text-dark" style="width: 74%">74%</div>
+        </div>
+      </li>
+      <li>Javascript<div class="progress" role="progressbar" aria-label="Secondary example" aria-valuenow="46"
+          aria-valuemin="0" aria-valuemax="100">
+          <div class="progress-bar bg-secondary text-dark" style="width: 46%">46%</div>
+        </div>
+      </li>
+    </ul>
+    </p>
+    <div class="container container-icons">
+      <i class="fa-brands fa-css3-alt"></i>
+      <i class="fa-brands fa-java"></i>
+      <i class="fa-brands fa-figma"></i>
+      <i class="fa-brands fa-js"></i>
+      <i class="fa-brands fa-bootstrap"></i>
+      <i class="fa-brands fa-angular"></i>
+      <i class="fa-solid fa-c"></i>
+      <i class="fa-brands fa-ubuntu"></i>
+      <i class="fa-brands fa-github"></i>
+      <i class="fa-brands fa-html5"></i>
+      <i class="fa-brands fa-react"></i>
+      <i class="fa-brands fa-node"></i>
+      <i class="fa-brands fa-python"></i>
+    </div>
+  </div>
+
+
+  <div class="container px-4 py-3" id="custom-cards">
+    <h2 class=" border-bottom" id="projects">Projects</h2>
+
+    <div class="row row-cols-1 row-cols-lg-3 align-items-stretch g-4 py-5">
+      <div class="col">
+        <div class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg"
+          style="background-image: url('unsplash-photo-1.jpg');">
+          <h3 class="m-3">Data Analysis</h3>
+          <p class="mx-3">I have undertaken a comprehensive learning journey in the Python programming language,
+            progressing from fundamental concepts to an advanced level of proficiency. Throughout this educational
+            endeavor, I have harnessed the capabilities of various libraries, including but not limited to NumPy,
+            Matplotlib, Pandas, and Seaborn. This foundational knowledge has equipped me with the essential quantitative
+            skills necessary for the effective manipulation, analysis, and interpretation of data, thereby enhancing my
+            proficiency in the field of data analytics. </p><button type="button"
+            class="btn btn-secondary text-bg-light"><a
+              href="https://colab.research.google.com/drive/1BizleW8orWUXH2avXZiBpqa-ZHVCv6N8?usp=sharing">more</a></button>
+        </div>
+      </div>
+
+
+      <div class="col">
+        <div class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg"
+          style="background-image: url('unsplash-photo-1.jpg');">
+          <h3 class="m-3">Web Development</h3>
+          <p class="mx-3">I have successfully developed a website using a combination of HTML and CSS, thoughtfully
+            integrated with the Bootstrap framework. This amalgamation has enabled the creation of a highly responsive
+            and aesthetically pleasing digital platform, serving as a comprehensive travel guide. The website caters to
+            the needs of individuals seeking information and recommendations for various destinations, offering
+            invaluable insights into essential places to explore. The website's functionality extends to a user feedback
+            mechanism through the "Contacts" section. </p><button type="button"
+            class="btn btn-secondary text-bg-light"><a
+              href="https://drive.google.com/drive/folders/1AfrxW-vB5x_WUOdDEAhIDJB8eWhqNHkX?usp=share_link">more</a></button>
+        </div>
+      </div>
+
+
+
+      <div class="col">
+        <div class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg"
+          style="background-image: url('unsplash-photo-1.jpg');">
+          <h3 class="m-3">Virtual Assistant</h3>
+          <p class="mx-3">The creation of a Python-based virtual assistant, augmented with a graphical user interface
+            (GUI), represents a sophisticated solution designed to streamline daily tasks and enhance user convenience.
+            This virtual assistant is multifaceted, proficiently executing functions that encompass messaging, weather
+            report retrieval, significantly streamlines everyday tasks and voice-activated access to online content such
+            as YouTube,Google,Calculator and etc. This innovative amalgamation of technologies serves to enhance user
+            convenience and productivity. </p><button type="button" class="btn btn-secondary text-bg-light"><a
+              href="https://drive.google.com/drive/folders/1jIU3bGFwrnPBrjazymMCSxGwSz29MyPB?usp=sharing">more</a></button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+  <div class="contact bg-light">
+    <div class="row featurette">
+      <div class="col-md-7 mx-4">
+        <h2 class="featurette-heading fw-normal lh-1 my-3" id="contact">Contact Me</h2>
+        <!-- <span class="text-body-secondary">It’llblow your mind.</span> -->
+        <form>
+          <div class="mb-3">
+            <label for="exampleInputEmail1" class="form-label">Email address</label>
+            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+            <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+          </div>
+          <div class="mb-3">
+            <label for="exampleFormControlTextarea1" class="form-label">Subject</label>
+            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+          </div>
+          <div class="mb-3 form-check">
+            <input type="checkbox" class="form-check-input" id="exampleCheck1">
+            <label class="form-check-label" for="exampleCheck1">Talk with me</label>
+          </div>
+          <button type="submit" class="btn btn-primary">Submit</button>
+        </form>
+      </div>
+    </div>
+    <div class="m-4 contact-icons">
+      <a href="https://instagram.com/_anu.5ha_?igshid=NTc4MTIwNjQ2YQ=="><i
+          class="fa-brands fa-square-instagram"></i></a>
+      <a href="https://www.linkedin.com/in/anusha-v-86b461295/"><i class="fa-brands fa-linkedin"></i></a>
+    </div>
+  </div>
+
+
+
+  <footer class="footer mt-auto py-3 bg-body-tertiary">
+    <div class="container">
+      <span class="text-body-secondary">Thankyou for Visiting!!</span>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+    integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"
+    integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
